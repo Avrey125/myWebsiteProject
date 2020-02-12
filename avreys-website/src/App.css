@@ -1,0 +1,91 @@
+/* .App {
+
+
+} */
+
+body {
+  background-color: #080808;
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.circleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 25px;
+  margin-top: .5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#socialContainer {
+  background-color:rgb(24, 23, 23);
+  box-shadow: 2px 5px 10px #888888;
+}
+
+.middleBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+
+.circle1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #dedede;
+  margin-top:10px;
+  font-size: 100%;
+  text-align: center;
+  color: black;
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #dedede;
+  margin-top:10px;
+  text-align: center;
+  color: black;
+}
+
+.circle3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #dedede;
+  margin-top:10px;
+  text-align: center;
+  color: black;
+}
+
+.profilePic {
+  border-radius: 100%;
+  border: inset rgb(32, 75, 218) 10px;
+}
+
+#textBox {
+  font-size:50px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#divider {
+  background-color: red;
+  border: 10px solid red;
+}
+
+
+
